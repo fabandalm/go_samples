@@ -19,5 +19,6 @@ func main(){
 	var mean int 
 	mean = (x+y)/2
 	fmt.Printf("mean=%v, type of %T\n", mean, mean)
+	fmt.Println("Calculate mean of two numbers")
 	
 }
