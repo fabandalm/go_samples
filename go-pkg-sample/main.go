@@ -9,6 +9,8 @@ import (
 func main(){
 	s:="fabio"
 	fmt.Println(stringutils.Upper(s))
+	t:= "FABIO"
+	fmt.Println(stringutils.Lower(t))
 	result := calc.Add(2,3)
 	println(result)
 	printMemoryAddr()
