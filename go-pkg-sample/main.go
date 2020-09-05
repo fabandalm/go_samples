@@ -13,6 +13,7 @@ func main(){
 	fmt.Println(stringutils.Lower(t))
 	result := calc.Add(2,3)
 	println(result)
+	println(calc.Minus(7,2))
 	printMemoryAddr()
 }
 
